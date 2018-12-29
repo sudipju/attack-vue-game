@@ -1,0 +1,65 @@
+### Maven ###
+target/
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+.checkstyle
+*.versionsBackup
+
+### Docker ###
+.env
+!func-test/src/test/resources/conf/.env
+
+### Git ###
+gitCredentialStore
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.settings
+.project
+.classpath
+.studio
+target
+
+### Apple ###
+.DS_Store
+
+### Others ###
+*.log
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+
+### logback ###
+logback.out.xml
+
+target
+
+backend/boot/src/main/resources/public/
+backend/target
+frontend/dist/
+frontend/node/
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/target
+frontend/test-output
+frontend/test/e2e/reports
+frontend/test/unit/coverage
+frontend/yarn-error.log
+frontend/yarn.lock
+security/target/
+selenium-debug.log
